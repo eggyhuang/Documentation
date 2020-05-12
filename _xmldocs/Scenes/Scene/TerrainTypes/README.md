@@ -1,10 +1,14 @@
 # TerrainType
 
 ## Parent node
-- [Scene](../../Scene)
+
+* [Scene](../)
 
 ## Child nodes
-- [TerrainType](TerrainType)
+
+* [TerrainType](terraintype.md)
 
 ## Attributes
+
 None
+

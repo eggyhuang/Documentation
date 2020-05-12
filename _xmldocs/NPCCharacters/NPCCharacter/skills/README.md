@@ -1,10 +1,14 @@
 # skills
 
 ## Parent node
-- [NPCCharacter](../../NPCCharacter)
+
+* [NPCCharacter](../)
 
 ## Child nodes
-- [skill](skill) 
+
+* [skill](skill.md) 
 
 ## Attributes
-*None*
+
+_None_
+

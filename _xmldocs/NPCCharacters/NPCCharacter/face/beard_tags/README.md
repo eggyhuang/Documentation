@@ -1,10 +1,14 @@
-# beard_tags
+# beard\_tags
 
 ## Parent node
-- [face](../../face)
+
+* [face](../)
 
 ## Child nodes
-- [NPCCharacter](NPCCharacter)
+
+* [NPCCharacter](https://github.com/YiGu-Studio/Documentation/tree/257365e0e4825d0d273c340468113857991180fc/_xmldocs/NPCCharacters/NPCCharacter/face/beard_tags/NPCCharacter/README.md)
 
 ## Attributes
+
 None
+

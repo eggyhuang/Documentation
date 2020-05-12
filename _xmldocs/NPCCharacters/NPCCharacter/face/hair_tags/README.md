@@ -1,10 +1,14 @@
-# hair_tags
+# hair\_tags
 
 ## Parent node
-- [face](../../face)
+
+* [face](../)
 
 ## Child nodes
-- [hair_tag](hair_tag)
+
+* [hair\_tag](hair_tag.md)
 
 ## Attributes
-*None*
+
+_None_
+

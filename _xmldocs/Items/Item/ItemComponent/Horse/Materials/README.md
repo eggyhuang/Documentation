@@ -1,10 +1,14 @@
 # Materials
 
 ## Parent node
-- [Horse](../../Horse)
+
+* [Horse](../)
 
 ## Child nodes
-- [Material](Material)
+
+* [Material](material/)
 
 ## Attributes
+
 The Materials node has no attributes.
+

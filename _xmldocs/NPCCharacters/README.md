@@ -1,10 +1,14 @@
 # NPCCharacters
 
 ## Parent node
-- *None*
+
+* _None_
 
 ## Child nodes
-- [NPCCharacter](NPCCharacter)
+
+* [NPCCharacter](npccharacter/)
 
 ## Attributes
+
 None
+

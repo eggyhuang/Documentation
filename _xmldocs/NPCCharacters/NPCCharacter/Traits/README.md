@@ -1,10 +1,14 @@
 # Traits
 
 ## Parent node
-- [NPCCharacter](../../NPCCharacter)
+
+* [NPCCharacter](../)
 
 ## Child nodes
-- [Trait](Trait) 
+
+* [Trait](trait.md) 
 
 ## Attributes
-*None*
+
+_None_
+

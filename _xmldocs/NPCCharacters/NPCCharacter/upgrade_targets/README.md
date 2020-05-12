@@ -1,10 +1,14 @@
-# upgrade_targets
+# upgrade\_targets
 
 ## Parent node
-- [NPCCharacter](../../NPCCharacter)
+
+* [NPCCharacter](../)
 
 ## Child nodes
-- [upgrade_target](upgrade_target) 
+
+* [upgrade\_target](upgrade_target.md) 
 
 ## Attributes
-*None*
+
+_None_
+

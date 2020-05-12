@@ -1,16 +1,24 @@
 # equipmentSet
 
 ## Parent node
-- [NPCCharacter](../../NPCCharacter)
+
+* [NPCCharacter](../)
 
 ## Child nodes
-- [equipment](equipment) 
+
+* [equipment](equipment.md) 
 
 ## Attributes
-[civilian](#civilian)
 
-- #### civilian
+[civilian](./#civilian)
+
+* **civilian**
+
   **type:**  `boolean`  
-  **accepted values:** `true` | `false`
+
+  **accepted values:** `true` \| `false`
+
   **example:**  `true`  
-  *If the equipment set is for civilian use*  
+
+  _If the equipment set is for civilian use_  
+

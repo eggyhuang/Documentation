@@ -1,10 +1,14 @@
 # MeshMultipliers
 
 ## Parent node
-- [Material](../../Material)
+
+* [Material](../)
 
 ## Child nodes
-- [MeshMultiplier](MeshMultiplier)
+
+* [MeshMultiplier](meshmultiplier.md)
 
 ## Attributes
+
 The MeshMultiplier node has no attributes.
+

@@ -1,377 +1,452 @@
 # Culture
 
 ## Parent node
-- [SPCultures](../../SPCultures)
+
+* [SPCultures](../)
 
 ## Child node
-- [female_names](female_names)
-- [male_names](male_names)
-- [clan_names](clan_names)
+
+* [female\_names](female_names/)
+* [male\_names](male_names/)
+* [clan\_names](clan_names/)
 
 ## Attributes
-[id](#id) | [name](#name) | [is_main_culture](#is_main_culture) | [color](#color) | [color2](#color2) | [elite_basic_troop](#elite_basic_troop) | [basic_troop](#basic_troop) | [melee_militia_troop](#melee_militia_troop) | [ranged_militia_troop](#ranged_militia_troop) | [melee_elite_militia_troop](#melee_elite_militia_troop) | [ranged_elite_militia_troop](#ranged_elite_militia_troop) | [can_have_settlement](#can_have_settlement) | [town_edge_number](#town_edge_number) | [villager_party_template](#villager_party_template) | [default_party_template](#default_party_template) | [caravan_party_template](#caravan_party_template) | [elite_caravan_party_template](#elite_caravan_party_template) | [militia_party_template](#militia_party_template) | [rebels_party_template](#rebels_party_template) | [prosperity_bonus](#prosperity_bonus) | [encounter_background_mesh](#encounter_background_mesh) | [default_face_key](#default_face_key) | [text](#text) | [tournament_master](#tournament_master) | [villager](#villager) | [caravan_master](#caravan_master) | [armed_trader](#armed_trader) | [caravan_guard](#caravan_guard) | [veteran_caravan_guard](#veteran_caravan_guard) | [duel_preset](#duel_preset) | [prison_guard](#prison_guard) | [guard](#guard) | [steward](#steward) | [blacksmith](#blacksmith) | [weaponsmith](#weaponsmith) | [townswoman](#townswoman) | [townswoman_infant](#townswoman_infant) | [townswoman_child](#townswoman_child) | [townswoman_teenager](#townswoman_teenager) | [townsman](#townsman) | [townsman_infant](#townsman_infant) | [townsman_child](#townsman_child) | [townsman_teenager](#townsman_teenager) | [ransom_broker](#ransom_broker) | [gangleader_bodyguard](#gangleader_bodyguard) | [merchant_notary](#merchant_notary) | [artisan_notary](#artisan_notary) | [preacher_notary](#preacher_notary) | [rural_notable_notary](#rural_notable_notary) | [shop_worker](#shop_worker) | [tavernkeeper](#tavernkeeper) | [taverngamehost](#taverngamehost) | [musician](#musician) | [tavern_wench](#tavern_wench) | [armorer](#armorer) | [horseMerchant](#horsemerchant) | [merchant](#merchant) | [beggar](#beggar) | [female_beggar](#female_beggar) | [female_dancer](#female_dancer) | [gear_practice_dummy](#gear_practice_dummy) | [weapon_practice_stage_1](#weapon_practice_stage_1) | [weapon_practice_stage_2](#weapon_practice_stage_2) | [weapon_practice_stage_3](#weapon_practice_stage_3) | [gear_dummy](#gear_dummy) | [militia_bonus](#militia_bonus) | [is_bandit](#is_bandit) | [bandit_chief](#bandit_chief) | [bandit_raider](#bandit_raider) | [bandit_bandit](#bandit_bandit) | [bandit_boss](#bandit_boss) | [bandit_boss_party_template](#bandit_boss_party_template)
 
-- #### id
+[id](./#id) \| [name](./#name) \| [is\_main\_culture](./#is_main_culture) \| [color](./#color) \| [color2](./#color2) \| [elite\_basic\_troop](./#elite_basic_troop) \| [basic\_troop](./#basic_troop) \| [melee\_militia\_troop](./#melee_militia_troop) \| [ranged\_militia\_troop](./#ranged_militia_troop) \| [melee\_elite\_militia\_troop](./#melee_elite_militia_troop) \| [ranged\_elite\_militia\_troop](./#ranged_elite_militia_troop) \| [can\_have\_settlement](./#can_have_settlement) \| [town\_edge\_number](./#town_edge_number) \| [villager\_party\_template](./#villager_party_template) \| [default\_party\_template](./#default_party_template) \| [caravan\_party\_template](./#caravan_party_template) \| [elite\_caravan\_party\_template](./#elite_caravan_party_template) \| [militia\_party\_template](./#militia_party_template) \| [rebels\_party\_template](./#rebels_party_template) \| [prosperity\_bonus](./#prosperity_bonus) \| [encounter\_background\_mesh](./#encounter_background_mesh) \| [default\_face\_key](./#default_face_key) \| [text](./#text) \| [tournament\_master](./#tournament_master) \| [villager](./#villager) \| [caravan\_master](./#caravan_master) \| [armed\_trader](./#armed_trader) \| [caravan\_guard](./#caravan_guard) \| [veteran\_caravan\_guard](./#veteran_caravan_guard) \| [duel\_preset](./#duel_preset) \| [prison\_guard](./#prison_guard) \| [guard](./#guard) \| [steward](./#steward) \| [blacksmith](./#blacksmith) \| [weaponsmith](./#weaponsmith) \| [townswoman](./#townswoman) \| [townswoman\_infant](./#townswoman_infant) \| [townswoman\_child](./#townswoman_child) \| [townswoman\_teenager](./#townswoman_teenager) \| [townsman](./#townsman) \| [townsman\_infant](./#townsman_infant) \| [townsman\_child](./#townsman_child) \| [townsman\_teenager](./#townsman_teenager) \| [ransom\_broker](./#ransom_broker) \| [gangleader\_bodyguard](./#gangleader_bodyguard) \| [merchant\_notary](./#merchant_notary) \| [artisan\_notary](./#artisan_notary) \| [preacher\_notary](./#preacher_notary) \| [rural\_notable\_notary](./#rural_notable_notary) \| [shop\_worker](./#shop_worker) \| [tavernkeeper](./#tavernkeeper) \| [taverngamehost](./#taverngamehost) \| [musician](./#musician) \| [tavern\_wench](./#tavern_wench) \| [armorer](./#armorer) \| [horseMerchant](./#horsemerchant) \| [merchant](./#merchant) \| [beggar](./#beggar) \| [female\_beggar](./#female_beggar) \| [female\_dancer](./#female_dancer) \| [gear\_practice\_dummy](./#gear_practice_dummy) \| [weapon\_practice\_stage\_1](./#weapon_practice_stage_1) \| [weapon\_practice\_stage\_2](./#weapon_practice_stage_2) \| [weapon\_practice\_stage\_3](./#weapon_practice_stage_3) \| [gear\_dummy](./#gear_dummy) \| [militia\_bonus](./#militia_bonus) \| [is\_bandit](./#is_bandit) \| [bandit\_chief](./#bandit_chief) \| [bandit\_raider](./#bandit_raider) \| [bandit\_bandit](./#bandit_bandit) \| [bandit\_boss](./#bandit_boss) \| [bandit\_boss\_party\_template](./#bandit_boss_party_template)
+
+* **id**
+
   **类型:** `string`  
-  **例子:**  `empire`  
-  *The ID of the culture (faction)*  
-  
-- #### name
-  **类型:**  `string`  
-  **例子:**  `{=FjwRsf1C}Vlandia`  
-  *Note: The prefix in the `{=}` format is the translation id found in strings.txt*  
-  *TODO: Find out if this is auto generated.*  
+  **例子:** `empire`  
+  _The ID of the culture \(faction\)_
 
-- #### is_main_culture
+* **name**
+
+  **类型:** `string`  
+  **例子:** `{=FjwRsf1C}Vlandia`  
+  _Note: The prefix in the `{=}` format is the translation id found in strings.txt_  
+  _TODO: Find out if this is auto generated._
+
+* **is\_main\_culture**
+
   **类型:** `boolean`  
-  **接受值:** `true` | `false`
-  **例子:**  `false`  
-  *If the culture is a major (true) or a minor (false) faction*  
-  
-- #### color
-  **类型:** `hex`  
-  **例子:**  `FF4E3A55`  
-  *The color of the faction. TODO: figure out where the colour is displayed*
-  
-- #### color2
-  **类型:** `hex`  
-  **例子:**  `FF4E3A55`  
-  *The secondary color of the faction. TODO: figure out where the colour is displayed*
+  **接受值:** `true` \| `false` **例子:** `false`  
+  _If the culture is a major \(true\) or a minor \(false\) faction_
 
-- #### elite_basic_troop
+* **color**
+
+  **类型:** `hex`  
+  **例子:** `FF4E3A55`  
+  _The color of the faction. TODO: figure out where the colour is displayed_
+
+* **color2**
+
+  **类型:** `hex`  
+  **例子:** `FF4E3A55`  
+  _The secondary color of the faction. TODO: figure out where the colour is displayed_
+
+* **elite\_basic\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_vigla_recruit`  
-  *Reference to the NPCCharacter XML node. The Elite Recruit troop of the faction.*   
-  
-- #### basic_troop
+  **例子:** `NPCCharacter.imperial_vigla_recruit`  
+  _Reference to the NPCCharacter XML node. The Elite Recruit troop of the faction._
+
+* **basic\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_recruit`  
-  *Reference to the NPCCharacter XML node. The Recruit troop of the faction.* 
-    
-- #### melee_militia_troop
+  **例子:** `NPCCharacter.imperial_recruit`  
+  _Reference to the NPCCharacter XML node. The Recruit troop of the faction._
+
+* **melee\_militia\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_recruit`  
-  *Reference to the NPCCharacter XML node.*    
-      
-- #### ranged_militia_troop
+  **例子:** `NPCCharacter.imperial_recruit`  
+  _Reference to the NPCCharacter XML node._
+
+* **ranged\_militia\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_recruit`  
-  *Reference to the NPCCharacter XML node.*    
-  
-- #### melee_elite_militia_troop
+  **例子:** `NPCCharacter.imperial_recruit`  
+  _Reference to the NPCCharacter XML node._
+
+* **melee\_elite\_militia\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_recruit`  
-  *Reference to the NPCCharacter XML node.*  
-  
-- #### ranged_elite_militia_troop
+  **例子:** `NPCCharacter.imperial_recruit`  
+  _Reference to the NPCCharacter XML node._
+
+* **ranged\_elite\_militia\_troop**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.imperial_recruit`  
-  *Reference to the NPCCharacter XML node.*  
-   
-- #### can_have_settlement
+  **例子:** `NPCCharacter.imperial_recruit`  
+  _Reference to the NPCCharacter XML node._
+
+* **can\_have\_settlement**
+
   **类型:** `reference`  
-  **接受值:** `true` | `false`  
-  **例子:**  `true`  
-  *If the faction can have settlements on the map.*  
-   
-- #### town_edge_number
+  **接受值:** `true` \| `false`  
+  **例子:** `true`  
+  _If the faction can have settlements on the map._
+
+* **town\_edge\_number**
+
   **类型:** `int`  
-  **例子:**  `16`  
-  *TODO: figure out what this does.*      
-   
-- #### villager_party_template
+  **例子:** `16`  
+  _TODO: figure out what this does._
+
+* **villager\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Villagers template reference to PartyTemplate XML node*      
-     
-- #### default_party_template
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Villagers template reference to PartyTemplate XML node_
+
+* **default\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Default template reference to PartyTemplate XML node* 
-     
-- #### caravan_party_template
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Default template reference to PartyTemplate XML node_
+
+* **caravan\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Caravan template reference to PartyTemplate XML node* 
-     
-- #### elite_caravan_party_template
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Caravan template reference to PartyTemplate XML node_
+
+* **elite\_caravan\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Elite Caravan template reference to PartyTemplate XML node* 
-     
-- #### militia_party_template
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Elite Caravan template reference to PartyTemplate XML node_
+
+* **militia\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Militia template reference to PartyTemplate XML node* 
-     
-- #### rebels_party_template
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Militia template reference to PartyTemplate XML node_
+
+* **rebels\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.villager_empire_template`  
-  *Rebels template reference to PartyTemplate XML node* 
-     
-- #### prosperity_bonus
+  **例子:** `PartyTemplate.villager_empire_template`  
+  _Rebels template reference to PartyTemplate XML node_
+
+* **prosperity\_bonus**
+
   **类型:** `int`  
-  **例子:**  `1`  
-  *Bonus to the prosperity of a faction* 
-     
-- #### encounter_background_mesh
+  **例子:** `1`  
+  _Bonus to the prosperity of a faction_
+
+* **encounter\_background\_mesh**
+
   **类型:** `reference`  
-  **例子:**  `encounter_empire`  
-  *Encounter background* 
-     
-- #### default_face_key
+  **例子:** `encounter_empire`  
+  _Encounter background_
+
+* **default\_face\_key**
+
   **类型:** `face_code`  
-  **例子:**  `000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000`  
-  *Default face keys for faction* 
-     
-- #### text
+  **例子:** `000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000`  
+  _Default face keys for faction_
+
+* **text**
+
   **类型:** `string`  
-  **例子:**  `{=X0kKBzsW}Lorem Ipsum Dol Amor`  
-  *Description of the faction* 
+  **例子:** `{=X0kKBzsW}Lorem Ipsum Dol Amor`  
+  _Description of the faction_
 
-- #### tournament_master
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.tournament_master_empire`  
-  *Reference to the tournament master NPCCharacter XML node.*   
+* **tournament\_master**
 
-- #### villager
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.tournament_master_empire`  
+  _Reference to the tournament master NPCCharacter XML node._
 
-- #### caravan_master
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **villager**
 
-- #### armed_trader
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### caravan_guard
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **caravan\_master**
 
-- #### veteran_caravan_guard
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### duel_preset
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **armed\_trader**
 
-- #### prison_guard
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### guard
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **caravan\_guard**
 
-- #### steward
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### blacksmith
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **veteran\_caravan\_guard**
 
-- #### weaponsmith
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### townswoman
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **duel\_preset**
 
-- #### townswoman_infant
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### townswoman_child
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **prison\_guard**
 
-- #### townswoman_teenager
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### townsman
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **guard**
 
-- #### townsman_infant
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### townsman_child
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **steward**
 
-- #### townsman_teenager
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### ransom_broker
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **blacksmith**
 
-- #### gangleader_bodyguard
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### merchant_notary
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **weaponsmith**
 
-- #### artisan_notary
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### preacher_notary
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townswoman**
 
-- #### rural_notable_notary
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### shop_worker
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townswoman\_infant**
 
-- #### tavernkeeper
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### taverngamehost
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townswoman\_child**
 
-- #### musician
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### tavern_wench
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townswoman\_teenager**
 
-- #### armorer
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### horseMerchant
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townsman**
 
-- #### merchant
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### beggar
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townsman\_infant**
 
-- #### female_beggar
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### female_dancer
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townsman\_child**
 
-- #### gear_practice_dummy
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### weapon_practice_stage_1
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **townsman\_teenager**
 
-- #### weapon_practice_stage_2
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
 
-- #### weapon_practice_stage_3
-  **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
+* **ransom\_broker**
 
-- #### gear_dummy
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
-  
-- #### militia_bonus
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **gangleader\_bodyguard**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **merchant\_notary**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **artisan\_notary**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **preacher\_notary**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **rural\_notable\_notary**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **shop\_worker**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **tavernkeeper**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **taverngamehost**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **musician**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **tavern\_wench**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **armorer**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **horseMerchant**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **merchant**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **beggar**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **female\_beggar**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **female\_dancer**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **gear\_practice\_dummy**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **weapon\_practice\_stage\_1**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **weapon\_practice\_stage\_2**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **weapon\_practice\_stage\_3**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **gear\_dummy**
+
+  **类型:** `reference`  
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **militia\_bonus**
+
   **类型:** `int`  
-  **例子:**  `1`  
-  *TODO: figure out what exactly this bonus does.*      
+  **例子:** `1`  
+  _TODO: figure out what exactly this bonus does._
 
-- #### is_bandit
+* **is\_bandit**
+
   **类型:** `int`  
-  **接受值:** `true` | `false`  
+  **接受值:** `true` \| `false`  
   **default:** `false`  
-  **例子:**  `1`  
-  *TODO: figure out what exactly this bonus does.*      
- 
-- #### bandit_chief
+  **例子:** `1`  
+  _TODO: figure out what exactly this bonus does._
+
+* **bandit\_chief**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
- 
-- #### bandit_raider
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **bandit\_raider**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
- 
-- #### bandit_bandit
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **bandit\_bandit**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
- 
-- #### bandit_boss
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **bandit\_boss**
+
   **类型:** `reference`  
-  **例子:**  `NPCCharacter.villager_empire`  
-  *Reference to the NPCCharacter XML node.*      
-     
-- #### bandit_boss_party_template
+  **例子:** `NPCCharacter.villager_empire`  
+  _Reference to the NPCCharacter XML node._
+
+* **bandit\_boss\_party\_template**
+
   **类型:** `reference`  
-  **例子:**  `PartyTemplate.sea_raiders_boss_party_template`  
-  *Bandit boss party template reference to PartyTemplate XML node* 
+  **例子:** `PartyTemplate.sea_raiders_boss_party_template`  
+  _Bandit boss party template reference to PartyTemplate XML node_
+

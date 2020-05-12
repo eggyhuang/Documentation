@@ -1,14 +1,18 @@
 # Face
 
 ## Parent node
-- [NPCCharacter](../../NPCCharacter)
+
+* [NPCCharacter](../)
 
 ## Child nodes
-- [beard_tags](beard_tags) 
-- [BodyProperties](BodyProperties) 
-- [BodyPropertiesMax](BodyPropertiesMax) 
-- [face_key_template](face_key_template) 
-- [hair_tags](hair_tags) 
+
+* [beard\_tags](beard_tags/) 
+* [BodyProperties](bodyproperties.md) 
+* [BodyPropertiesMax](bodypropertiesmax.md) 
+* [face\_key\_template](face_key_template.md) 
+* [hair\_tags](hair_tags/) 
 
 ## Attributes
-*None*
+
+_None_
+

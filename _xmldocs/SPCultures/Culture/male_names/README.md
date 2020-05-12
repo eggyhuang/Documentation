@@ -1,9 +1,12 @@
-# male_names
+# male\_names
 
 ## Parent node
-- [Culture](../../Culture)
+
+* [Culture](../)
 
 ## Child node
-- [name](name)
+
+* [name](name.md)
 
 ## Attributes
+

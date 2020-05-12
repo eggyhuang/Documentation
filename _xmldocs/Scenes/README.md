@@ -1,13 +1,17 @@
 # Scenes
 
-*Named as SPBattleScenes in SandBox Module*  
-*Named as CustomBattleScenes in SandBoxCore*  
+_Named as SPBattleScenes in SandBox Module_  
+_Named as CustomBattleScenes in SandBoxCore_
 
 ## Parent node
-- *None*
+
+* _None_
 
 ## Child nodes
-- [Scene](Scene)
+
+* [Scene](scene/)
 
 ## Attributes
+
 None
+

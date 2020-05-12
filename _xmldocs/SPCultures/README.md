@@ -1,10 +1,14 @@
 # SPCultures
 
 ## Parent node
-- *None*
+
+* _None_
 
 ## Child nodes
-- [Culture](Culture)
+
+* [Culture](culture/)
 
 ## Attributes
+
 None
+
