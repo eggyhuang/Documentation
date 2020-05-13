@@ -11,7 +11,7 @@
 
 # 关于距离缓存的说明
 距离缓存(distance cache)的定义目前并不明确是什么.不更新这个文件的话AI照样能在添加的定居点有正常行为,依旧会招募,转移俘虏及买卖货物,同时玩家也能正常进入新建的定居点.
-距离缓存可能就是由AI的一些决策产生的但也不太确定.它是通过'SettlementPositionScript'脚本文件中的'SaveSettlementDistanceCache()'方法生成的.这脚本和函数其实是个目前在游戏中还没用到的类,据说它是地图编辑器衍生出来的.
+距离缓存可能就是由AI的一些决策产生的,但也不太确定如此.它是通过'SettlementPositionScript'脚本文件中的'SaveSettlementDistanceCache()'方法生成的.这脚本和函数其实是个目前在游戏中还没用到的类,据说它是地图编辑器衍生出来的.
 这个类在'SandBox.View.dll'中找到.
 
 # 如何在游戏中重载一个默认定居点
